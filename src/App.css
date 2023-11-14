@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  background-color: antiquewhite;
+  width: 100vw; /* Ekran genişliği */
+  height: 100vh; /* Ekran yüksekliği */
+  padding: 20px; /* İçerik içinde boşluk eklemek için */
+}
+
+.bet-input {
+  max-width: 200px;
+  max-height: 50px;
+  margin-right: 1em;
+}
