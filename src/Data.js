@@ -4,3 +4,32 @@ export const questionDataList = [
     { id: 3, title: "Yet another question", choice: ["Answer 1", "Answer 2", "Answer 3", "Answer 4"] }
     // Ekstra soruları ve seçenekleri buraya ekleyebilirsiniz
   ];
+
+  export const contractAbi = [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getInfo",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "newValue",
+          "type": "string"
+        }
+      ],
+      "name": "InfoUpdated",
+      "type": "event"
+    },
+  ];

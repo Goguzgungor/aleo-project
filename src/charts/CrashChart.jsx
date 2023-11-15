@@ -91,7 +91,7 @@ const CrashChart = () => {
     <div>
       <canvas ref={chartRef} width="1200" height="600"></canvas>
       <p>{isCrashed ? 'Game Crashed!' : 'Game in progress...'}</p>
-      <h1>{crashData[crashData.length - 1]}</h1>
+      <h1>{crashData[crashData.length - 1]+1}</h1>
       <div>
         <label>Amount:</label>
         <input type="number" value={amount} onChange={(e) => setAmount(parseFloat(e.target.value) || 0)} />
